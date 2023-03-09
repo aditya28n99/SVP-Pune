@@ -1,0 +1,77 @@
+/* https://vpmpune.com/img/hero-bg-jrcollege.jpg */
+
+
+body{
+    background-image: url("https://vpmpune.com/img/hero-bg-jrcollege.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+    /* scroll-behavior: smooth; */
+    /* https://vpmpune.com/img/about-img.jpg */
+}
+
+#welcome-heading #wh-div1{
+    background-color: #635551;
+    border-radius: 20px;
+    width: 170px;
+    height: 40px;
+    position: relative;
+    /* text-align: right; */
+    
+}
+/* #wh-div1:hover{
+    background-color: #ff5821;
+} */
+#welcome-heading #wh-div1 i{
+    background-color: #ff5821;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -4px;
+    text-align: center;
+    /* padding-top: 10px; */
+    font-size: 20px;
+    padding-top: 15px;
+    border-radius: 50px;
+}
+#wh-div1 a{
+    color: white;
+    font-size: large;
+    margin-left: 65px;
+}
+#wh-div1 a:hover{
+    text-decoration: none;
+}
+#admission-proc ol{
+    padding-left: 25px;
+    list-style: lower-alpha;
+}
+#admission-12 ol{
+    padding-left: 25px;
+    list-style: lower-alpha;
+}
+#Curriculum table tr,td{
+    border: none;
+    font-weight: bold;
+    color: #635551;
+}
+#examination ol{
+    padding-left: 25px;
+}
+#cunduct-code{
+    padding: 50px 0;
+}
+#cocdr{
+    margin-left: 25px;
+} 
+#cocdr li{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+#notice{
+    color: red;
+    padding: 20px 0;
+}

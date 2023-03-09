@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Josefin+Sans&family=Open+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("https://vpmpune.com/img/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+}
+main{
+    background-color: white; 
+}
+h1{
+    font-family: "Raleway", sans-serif;
+    color: #635551;
+}
+h2{
+
+}
+h3{
+    color: #635551;
+    font-family: "Raleway", sans-serif;
+}
+h4{
+    color: #635551;
+}
+h5{
+
+}
+h6{
+
+}
+.element-white{
+    color: white;
+}
+.element-opera{
+    color: #635551;
+}
+.background-pink{
+    background-color: #fff9f7;
+}
+.background-white{
+    background-color: white;
+}
+.background-opera{
+    background-color: #635551;
+}
+.back-width{
+    width: 80%;
+    margin: auto;
+}
+
+.sections{
+    /* opacity: 0; */
+}
+.articles{
+    /* width */
+}
+.show{
+    opacity: 1;
+    animation: anims 0.3s forwards ease-in;
+}
+.showSidebar{
+    display: block;
+    opacity: 1;
+    animation: animsx 3s forwards ease-in-out;
+}
+.fadedIn{
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+
+@keyframes anims {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+};
+@keyframes animsx{
+    from{
+        transform: translateX(-150px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+};
+
+
+
+@media screen and (max-width: 1000px) {
+    #topbar{
+        display: none;
+    }
+    #nav-back ul{
+        display: none;
+    }
+    #welcome-sec #welcome-heading{
+        font-size: 16px;
+    }
+    .cb{
+        width: 100%;
+    }
+    .form-back #input1{
+        width: 100%;
+    }
+    .form-back #input2{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .navbar #nav-sidebar{
+        display: block;
+    }
+    body #welcome-sec{
+        padding: 80px auto;
+    }
+    .card-section #card1{
+        width: auto;
+    }
+    .card-section .cards{
+        width: auto;
+        margin-top: 20px;
+    }
+    #aboutus{
+        flex-direction: column;
+    }
+    #aboutus #about-img{
+        width: auto;
+    }
+    #aboutus #aboutus-detail{
+        width: fit-content;
+    }
+    .lr-sec{
+        flex-direction: column;
+    }
+    .lr-sec .l-sec{
+        width: 100%;
+       
+    }
+    .lr-sec .r-sec{
+        width: 100%; 
+    }
+    footer{
+        flex-direction: column;
+    }
+
+}
+/* @media screen and (min-width: 1000px) {
+    #nav-back #nav-sidebar{
+        display: none;
+    }
+    
+}; */
